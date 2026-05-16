@@ -1,0 +1,8 @@
+{
+  "name": "Bupplo Games Platform",
+  "description": "A high-quality, modern, minimalist gaming platform called Bupplo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
