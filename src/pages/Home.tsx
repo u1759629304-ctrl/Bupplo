@@ -58,28 +58,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Popular / GTA Section */}
-      <section className="px-6 md:px-12 py-10 relative">
-        <div className="max-w-7xl mx-auto">
-          <div className="glass-panel rounded-[2.5rem] overflow-hidden relative group">
-            <div className="absolute inset-0">
-              <img src="https://play-lh.googleusercontent.com/ujih8zF9R2ghF-qx2-gfu9hzDybab_hkmbTcelcS_lipXzbN0Yq9uSjXXNhfMucNqW84=w526-h296-rw" alt="GTA III Vice City" className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-700" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-            </div>
-            <div className="relative z-10 p-12 md:p-20 flex flex-col items-start border border-white/10 rounded-[2.5rem]">
-              <span className="text-bupplo-yellow font-bold uppercase tracking-widest text-sm mb-4 bg-yellow-500/20 px-4 py-1 rounded-full text-yellow-400">Populair!</span>
-              <span className="text-white/70 font-medium text-xl md:text-2xl mb-2">De originele</span>
-              <h2 className="font-display text-5xl md:text-7xl font-bold mb-8 text-white drop-shadow-lg">GTA III Vice City</h2>
-              <Link to="/games/gta-vice-city">
-                <Button size="lg" variant="yellow" className="text-lg px-12 group-hover:scale-105 transition-transform flex items-center">
-                  <Play className="mr-3 fill-black text-black" size={20} /> Speel Nu
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Featured Games Grid */}
       <section className="px-6 md:px-12 py-20 relative">
         <div className="max-w-7xl mx-auto">

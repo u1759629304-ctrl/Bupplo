@@ -35,18 +35,6 @@ export const GAMES: Game[] = [
     image: "https://imgur.com/bmIALyr.png"
   },
   {
-    id: "gta-vice-city",
-    title: "GTA III Vice City",
-    category: "Action",
-    tags: ["Open World", "Classic", "Crime"],
-    color: "yellow",
-    gradient: "from-yellow-900 to-black",
-    description: "Welcome to the 1980s. Welcome to Vice City.",
-    features: ["Open world", "Iconic soundtrack", "Story mode"],
-    image: "https://play-lh.googleusercontent.com/ujih8zF9R2ghF-qx2-gfu9hzDybab_hkmbTcelcS_lipXzbN0Yq9uSjXXNhfMucNqW84=w526-h296-rw",
-    developer: "Rockstar Games"
-  },
-  {
     id: "classic-chess",
     title: "Classic Chess",
     category: "Strategy",
@@ -54,7 +42,8 @@ export const GAMES: Game[] = [
     color: "green",
     gradient: "from-green-900 to-black",
     description: "The classic game of chess. Play against friends or our advanced AI.",
-    features: ["Online matchmaking", "Elo system", "Puzzle mode"]
+    features: ["Online matchmaking", "Elo system", "Puzzle mode"],
+    image: "https://imgur.com/PgiO4vD.png"
   },
   {
     id: "fruit-ninja",
@@ -74,7 +63,8 @@ export const GAMES: Game[] = [
     color: "yellow",
     gradient: "from-yellow-700 to-black",
     description: "Tap to flap. Don't hit the pipes. Sounds simple, right?",
-    features: ["Global leaderboards", "Retro pixel art", "Frustratingly fun"]
+    features: ["Global leaderboards", "Retro pixel art", "Frustratingly fun"],
+    image: "https://imgur.com/HMFkTU8.png"
   },
   {
     id: "pac-man",

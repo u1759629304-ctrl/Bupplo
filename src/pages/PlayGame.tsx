@@ -3,8 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import { MoveLeft } from "lucide-react";
 import NeonRacerGame from "../games/NeonRacer/NeonRacerGame";
 import ShadowNinjaGame from "../games/ShadowNinja/ShadowNinjaGame";
-import GTA3Game from "../games/GTA3/GTA3Game";
 import FlappyBirdGame from "../games/FlappyBird/FlappyBirdGame";
+import ClassicChessGame from "../games/ClassicChess/ClassicChessGame";
 
 export function PlayGame() {
   const { id } = useParams();
@@ -40,8 +40,8 @@ export function PlayGame() {
           <ShadowNinjaGame />
         ) : id === "flappy-bird" ? (
           <FlappyBirdGame />
-        ) : id === "gta-vice-city" ? (
-          <GTA3Game />
+        ) : id === "classic-chess" ? (
+          <ClassicChessGame />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-white/50">
             Game {id} is nog niet geïmplementeerd. (Coming soon)

@@ -21,7 +21,7 @@ export function GameDetail() {
   }
 
   const handlePlayClick = () => {
-    if (game.id === "neon-racer" || game.id === "shadow-ninja" || game.id === "gta-vice-city" || game.id === "flappy-bird") {
+    if (game.id === "neon-racer" || game.id === "shadow-ninja" || game.id === "gta-vice-city" || game.id === "flappy-bird" || game.id === "classic-chess") {
       navigate(`/play/${game.id}`);
     } else {
       setShowToast(true);
